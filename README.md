@@ -59,23 +59,6 @@ This is an ongoing project, and I plan to improve and add more features in the f
 * **Core Libraries:** Pillow, piexif, pikepdf, python-docx, openpyxl, python-pptx
 * **Packaging (for .exe):** PyInstaller
 
-### Getting Started (from source)
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url-here>
-    cd StealthShare
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install Pillow piexif pikepdf python-docx openpyxl python-pptx
-    ```
-    *(Note: `tkinterdnd2-universal` was previously considered for Drag-and-Drop but is currently disabled due to compatibility issues with recent Python versions.)*
-3.  **Run the application:**
-    ```bash
-    python main.py
-    ```
-
 ### Building the .exe (Example for Windows)
 
 You'll need PyInstaller: `pip install pyinstaller`
